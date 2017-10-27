@@ -1,0 +1,4 @@
+mex -setup
+mex GraphCutSegment.cpp graph.cpp maxflow.cpp
+mex GraphCutSegmentLazy.cpp graph.cpp maxflow.cpp
+SegTool 
